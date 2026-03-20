@@ -1,0 +1,4 @@
+/* Home.css is now mostly empty as styles have been moved to component-specific CSS files */
+.home {
+  min-height: 100vh;
+}
