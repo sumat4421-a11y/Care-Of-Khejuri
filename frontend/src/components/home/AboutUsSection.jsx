@@ -61,6 +61,40 @@ const AboutUsSection = () => {
                         <p className="about-text highlight">
                             Through partnerships, volunteerism, and local participation, Care of Khejuri aims to build a stronger, greener, and more inclusive future for coastal communities.
                         </p>
+                        <section className="founder-message-card" aria-label="Founder's message">
+                            <p className="founder-message-kicker">Founder's Message</p>
+                            <div className="founder-message-head">
+                                <img
+                                    src="/images/aboutUs/cokfnder.jpeg"
+                                    alt="Subhrajit Panda, Founder of Care of Khejuri"
+                                    className="founder-photo"
+                                    loading="lazy"
+                                />
+                                <div className="founder-identity">
+                                    <h4>Subhrajit Panda</h4>
+                                    <p>Founder, Care of Khejuri NGO</p>
+                                </div>
+                            </div>
+                            <p className="about-text founder-message-text">
+                                Care of Khejuri was founded in 2018 with a vision to bring meaningful change to the coastal communities of Khejuri, located along the Bay of Bengal.
+                            </p>
+                            <p className="about-text founder-message-text">
+                                What began as a small initiative has today grown into a movement reaching across nearly 5 blocks in the region, and expanding its impact to multiple districts of West Bengal. Since its inception, the organization has positively impacted over 50,000+ lives through various community-driven initiatives.
+                            </p>
+                            <p className="about-text founder-focus-intro">Our work focuses on:</p>
+                            <ul className="founder-focus-list">
+                                <li>Health awareness and community outreach programs</li>
+                                <li>Youth development through seminars, skill-building, and job opportunities</li>
+                                <li>Animal care and welfare initiatives</li>
+                                <li>Biodiversity conservation and environmental protection</li>
+                            </ul>
+                            <p className="about-text founder-message-text">
+                                At Care of Khejuri, we believe in consistent, grassroots-level action to improve quality of life and build a sustainable future.
+                            </p>
+                            <p className="about-text founder-message-signoff">
+                                We look forward to your continued support and encouragement as we move ahead on this journey of service and impact.
+                            </p>
+                        </section>
                         <div className="registration-info">
                             <span className="reg-badge">Government Registered Non-Profit</span>
                             <span className="reg-badge">NGO Darpan Registered (NITI Aayog)</span>
