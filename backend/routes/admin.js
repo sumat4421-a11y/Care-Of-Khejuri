@@ -24,7 +24,7 @@ router.post('/login', loginLimiter, async (req, res) => {
 
     // Check credentials against environment variables (preset admin)
     if (username !== process.env.ADMIN_USERNAME) {
-      return res.status(401).json({ message: 'Invalid credentials' });
+      return res.status(401).json({ message: 'Invalid Username' });
     }
 
     // Compare password hash when available. Keep legacy fallback for migration only.
@@ -36,7 +36,7 @@ router.post('/login', loginLimiter, async (req, res) => {
     }
     
     if (!isMatch) {
-      return res.status(401).json({ message: 'Invalid credentials' });
+      return res.status(401).json({ message: 'Invalid Password' });
     }
 
     // Create JWT token
